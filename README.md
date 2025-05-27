@@ -4,12 +4,14 @@
 <h3>A simple expense tracker application with authentication built with the MERN stack.</h3>
 </p>
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/maciekt07/ExpenseTracker?color=%230061FF)
-![GitHub last commit](https://img.shields.io/github/last-commit/maciekt07/ExpenseTracker?color=%230061FF)
-![GitHub License](https://img.shields.io/github/license/maciekt07/ExpenseTracker?color=%230061FF)
-
 <p align="center">
-<img src="screenshots/preview.png" width="650px" />
+<img src="screenshots/register.png" width="650px" />
+<img src="screenshots/login.png" width="650px" />
+<img src="screenshots/income.png" width="650px" />
+<img src="screenshots/expense.png" width="650px" />
+<img src="screenshots/dashboard.png" width="650px" />
+<img src="screenshots/history.png" width="650px" />
+<img src="screenshots/profile.png" width="650px" />
 </p>
 
 ## Tech stack
@@ -46,8 +48,11 @@
 
 ## Features
 
+- SignUp
+- Login
+- Add Income
+- Add Expense
 - Dark Mode
-- Currency Selection with Intl API [https://codepen.io/maciekt07/pen/zYVdPLy](https://codepen.io/maciekt07/pen/zYVdPLy)
 - Profile Picture Upload
 - JWT Authentication
 
@@ -58,7 +63,7 @@
 First, clone the project repository from GitHub.
 
 ```bash
-git clone https://github.com/maciekt07/ExpenseTracker.git
+git clone https://github.com/HaseebUlHassan207/expense-tracker-mern.git
 cd ExpenseTracker
 ```
 
@@ -91,14 +96,6 @@ cd ..
 npm run dev
 ```
 
-<img src="screenshots/console.png" width="400px" />
-
 The server will start running on port 8000.
 
 The client will start running on port 5173.
-
-## Credits
-
-Made with ❤️ by [maciekt07](https://github.com/maciekt07).
-
-Inspired by [Traversy Media Course](https://youtu.be/-0exw-9YJBo?si=Sb0nOUDenxp5Ez3X).
